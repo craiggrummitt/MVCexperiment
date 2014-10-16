@@ -22,7 +22,6 @@ class ThirdViewController: UIViewController, Type3DataSource, Type3Delegate {
     @IBAction func openView(sender: AnyObject) {
         var customView = NSBundle.mainBundle().loadNibNamed("Type3View", owner: self, options: nil)[0] as? Type3View
         if let customViewUnwrapped = customView {
-            println("YES")
             /*  ----------------------------------------------------------------------------------------------------------
             View Controller calls itself the dataSource and delegate of the custom view.
             Custom view calls itself the dataSource and delegate of the UIPicker.
