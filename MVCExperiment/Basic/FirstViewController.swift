@@ -21,7 +21,8 @@ class FirstViewController: UIViewController {
         if let customViewUnwrapped = customView {
             
         /*  ----------------------------------------------------------------------------------------------------------
-            //pass in data directly to the custom view, custom view handles displaying the data in the UIPicker
+            pass in data directly to the custom view, custom view handles displaying the data in the UIPicker
+            Breaks MVC conventions?
             ---------------------------------------------------------------------------------------------------------       */
             customViewUnwrapped.addItems(items)
             

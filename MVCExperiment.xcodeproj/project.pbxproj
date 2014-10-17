@@ -72,14 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		184ACF7519F06DCF00EDA7CA /* Basic */ = {
+		184ACF7519F06DCF00EDA7CA /* Type1 */ = {
 			isa = PBXGroup;
 			children = (
 				184ACF7C19F0730500EDA7CA /* FirstViewController.swift */,
 				184ACF7B19F0730500EDA7CA /* BasicView.xib */,
 				184ACF7919F0715D00EDA7CA /* BasicView.swift */,
 			);
-			name = Basic;
+			name = Type1;
 			sourceTree = "<group>";
 		};
 		184ACF7F19F0808F00EDA7CA /* Type2 */ = {
@@ -125,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				18A25C5819F03B0D0021BFE7 /* AppDelegate.swift */,
-				184ACF7519F06DCF00EDA7CA /* Basic */,
+				184ACF7519F06DCF00EDA7CA /* Type1 */,
 				184ACF7F19F0808F00EDA7CA /* Type2 */,
 				184ACF8619F086E300EDA7CA /* Type3 */,
 				18A25C5E19F03B0D0021BFE7 /* Main.storyboard */,
